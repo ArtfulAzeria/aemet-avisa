@@ -2,7 +2,10 @@ import puppeteer from 'puppeteer';
 
 export async function captureAemetMap() {
     const url = 'https://www.aemet.es/es/eltiempo/prediccion/avisos';
-    const browser = await puppeteer.launch();
+    const browser = await puppeteer.launch({
+        headless: true,
+        args: ['--no-sandbox', '--disable-setuid-sandbox'],
+    });
     const page = await browser.newPage();
 
     // Different parameters may result in the map being badly cropped.
