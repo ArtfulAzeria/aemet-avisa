@@ -19,7 +19,7 @@ export class Rss {
     public set url(_url: string) {
         this._url = _url;
     }
-
+// test
     public get xml(): string {
         return this._xml;
     }
