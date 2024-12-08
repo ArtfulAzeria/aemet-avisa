@@ -63,6 +63,7 @@ class Main {
                 "🔴 Avisos rojos en:\n"
                 + red.join(', ')
             )
+            msg += "\n";
             if (red.length >= 2)
                 msg = msg.replace(/,([^,]*)$/, " y$1");
         }
@@ -75,6 +76,7 @@ class Main {
                 "🟠 Avisos naranjas en:\n"
                 + orange.join(', ')
             )
+            msg += "\n";
             if (orange.length >= 2)
                 msg = msg.replace(/,([^,]*)$/, " y$1");
         }
@@ -87,9 +89,14 @@ class Main {
                 "🟡 Avisos amarillos en:\n"
                 + yellow.join(', ')
             )
+            msg += "\n";
             if (yellow.length >= 2)
                 msg = msg.replace(/,([^,]*)$/, " y$1");
         }
+
+        msg += ("\n"
+            + "Para más información acude a aemet.es"
+        );
 
         return msg;
     }
@@ -233,10 +240,10 @@ class Main {
         try {
             // Leer la imagen como un buffer
             const buffer = await fsp.readFile(imagePath);
-    
+
             // Convertir el buffer a Uint8Array
             const uint8Array = new Uint8Array(buffer);
-    
+
             console.log('Imagen cargada en Uint8Array:', uint8Array);
             return uint8Array;
         } catch (error) {
@@ -270,21 +277,40 @@ class Main {
             password: process.env.BLUESKY_PASSWORD!
         })
 
-        // const testimage = await main.imgToUint8Array("./aemet_map.png");
-
         const testUpload = await agent.uploadBlob(image, { encoding: "image/png" })
 
+        const postText: string = main.buildMessage();
+        console.log(postText);
+        console.log("---");
+        console.log(postText.indexOf("aemet.es"));
+        
+        const offset: number =  postText.split(/\r\n|\r|\n/).length;
+        console.log(offset);
+        
+
         let response = await agent.post({
-            text: main.buildMessage(),
+            text: postText,
             embed: {
                 images: [
                     {
                         image: testUpload.data.blob,
-                        alt: "test",
+                        alt: "Mapa de España con los avisos amarillos, naranjas y rojos de eventos meteorológicos. Fuente: web de avisos de la AEMET.",
                     },
                 ],
                 $type: "app.bsky.embed.images",
             },
+            facets: [
+                {
+                    index: {
+                        byteStart: postText.indexOf("aemet.es")+offset+2,
+                        byteEnd: postText.indexOf("aemet.es")+offset+2+8
+                    },
+                    features: [{
+                        $type: 'app.bsky.richtext.facet#link',
+                        uri: 'https://www.aemet.es/es/eltiempo/prediccion/avisos'
+                    }]
+                }
+            ]
         });
         console.log(response);
 

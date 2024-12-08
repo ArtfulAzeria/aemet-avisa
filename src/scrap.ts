@@ -45,7 +45,7 @@ export async function captureAemetMap(): Promise<Uint8Array> {
 
             /* Override color: Yellow */
             path.leaflet-interactive[fill="#f4e72a"] {
-                /* fill: #22AA22 !important; */
+                fill: #d9ca00 !important;
             }
 
             /* Override color: Orange */
@@ -71,6 +71,7 @@ export async function captureAemetMap(): Promise<Uint8Array> {
     const mapElement = await page.$('#mapa');
     if (mapElement) {
         mapToReturn = await mapElement.screenshot();
+        // await mapElement.screenshot({ path: 'aemet_map.png' });
         console.log('Mapa capturado y guardado como aemet_map.png');
     } else {
         console.error('No se pudo encontrar el mapa.');
