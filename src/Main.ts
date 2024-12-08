@@ -246,9 +246,7 @@ class Main {
     }
 
     static async main(): Promise<void> {
-        (async () => {
-            await captureAemetMap();
-        })();
+        let image: Uint8Array = await captureAemetMap();
 
         const mainRss: Rss = new Rss(immutable.mainRssUrl);
         await mainRss.initialize();
@@ -272,9 +270,9 @@ class Main {
             password: process.env.BLUESKY_PASSWORD!
         })
 
-        const testimage = await main.imgToUint8Array("./aemet_map.png");
+        // const testimage = await main.imgToUint8Array("./aemet_map.png");
 
-        const testUpload = await agent.uploadBlob(testimage, { encoding: "image/png" })
+        const testUpload = await agent.uploadBlob(image, { encoding: "image/png" })
 
         let response = await agent.post({
             text: main.buildMessage(),

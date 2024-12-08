@@ -1,6 +1,7 @@
 import puppeteer from 'puppeteer';
 
-export async function captureAemetMap() {
+export async function captureAemetMap(): Promise<Uint8Array> {
+    let mapToReturn: Uint8Array = new Uint8Array;
     const url = 'https://www.aemet.es/es/eltiempo/prediccion/avisos';
     const browser = await puppeteer.launch({
         headless: true,
@@ -69,13 +70,14 @@ export async function captureAemetMap() {
 
     const mapElement = await page.$('#mapa');
     if (mapElement) {
-        await mapElement.screenshot({ path: 'aemet_map.png' });
+        mapToReturn = await mapElement.screenshot();
         console.log('Mapa capturado y guardado como aemet_map.png');
     } else {
         console.error('No se pudo encontrar el mapa.');
     }
 
     await browser.close();
+    return mapToReturn;
 }
 
 captureAemetMap().catch(console.error);
