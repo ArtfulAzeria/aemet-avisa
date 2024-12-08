@@ -1,0 +1,34 @@
+# Dependecies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Compilation output
+dist/
+build/
+
+# Enviroment
+.env
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+
+# Generable TypeScript conf
+*.tsbuildinfo
+
+# Temp OS files
+.DS_Store
+Thumbs.db
+
+# IDE conf
+.vscode/
+.idea/
+
+# Stuff
+resources/external-documentation
+aemet_map.png
+geo.basic.json
+poly.json
+global-folder
