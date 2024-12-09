@@ -186,6 +186,6 @@ Donde se usa el mismo formato que en geo.basic.json, pero añadiendo el valor de
 
 > [!NOTE]
 > El mapa es extraido con un scrapper de la web de la AEMET, pero gracias a que se
-> disponen de los datos de geo.json podría ser construido localmente sin acceder a
+> disponen de los datos de `geo.json` podría ser construido localmente sin acceder a
 > la web de la AEMET nada más que para extraer el RSS con los datos actualizados.
 
