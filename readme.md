@@ -77,3 +77,5 @@ Luego el XML es transformado a un objeto [aemetGeneralAlert.ts](src/interface/ae
 4. Crea tu archivo `.env` (ver [sample.env](sample.env)).
 5. Después usa `npx tsc` para generar los archivos `.js` en la carpeta `dist` y ejecuta `node dist/src/Main.js` para correr la aplicación.
 
+## Otras consideraciones
+Bajo el directorio [utils](src/utils/) hay 2 archivos de extracción de datos.
