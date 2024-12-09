@@ -106,6 +106,9 @@ Almacena los datos de todas las zonas de aviso formateados tal que:
 | `comm` | Comunidad autónoma                        |
 | `seab` | Sea boolean: si tiene costa (1) o no (0)  |
 
+> [!NOTE]
+> Estos datos han sido extraidos del [anexo segundo de Meteoalerta](resources/external-documentation/METEOALERTA_ANX2.pdf).
+
 > [!IMPORTANT]
 > El `code` puede tener un código puramente numérico con 6 dígitos, o un código alfanumérico con 6 dígitos y terminado en C.
 >
@@ -127,6 +130,8 @@ Almacena los datos de todas las zonas de aviso formateados tal que:
 >     "seab": "1"
 > },
 > ```
+> Para más detalles respecto al formateo nativo de los datos por parte de AEMET
+> revisa la [documentación](resources/external-documentation/)
 
 ### poly.json
 Guarda los datos de los polígonos de cada zona de aviso (para dibujar la zona en un mapa), tal que:
@@ -144,7 +149,11 @@ Guarda los datos de los polígonos de cada zona de aviso (para dibujar la zona e
 | `code`     | Código que identifica la zona de aviso              |
 | `polygons` | Los polígonos con el que dibujar la zona en un mapa |
 
-> [!IMPORTANT]
+> [!WARNING]
+> Ejecutar el archivo [poly.json_data-extractor.ts](src/utils/poly.json_data-extractor.ts) requiere un directorio `global-folder` que contenga todos los archivos XML del archivo
+`.tar.gz` que se puede encontrar en el RSS principal.
+
+> [!TIP]
 > Aunque no es habitual, una misma zona puede estar compuesta por varios polígonos, por eso el dato se trata como array.
 
 ### geo.json
@@ -174,3 +183,9 @@ Donde se usa el mismo formato que en geo.basic.json, pero añadiendo el valor de
 | `comm`     | Comunidad autónoma                                  |
 | `seab`     | Sea boolean: si tiene costa (1) o no (0)            |
 | `polygons` | Los polígonos con el que dibujar la zona en un mapa |
+
+> [!NOTE]
+> El mapa es extraido con un scrapper de la web de la AEMET, pero gracias a que se
+> disponen de los datos de geo.json podría ser construido localmente sin acceder a
+> la web de la AEMET nada más que para extraer el RSS con los datos actualizados.
+
