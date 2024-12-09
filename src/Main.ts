@@ -1,6 +1,6 @@
 import { AemetGeneralAlert } from "./interface/aemetGeneralAlert.js";
 import { immutable } from "../resources/immutable.js";
-import { BskyAgent } from '@atproto/api';
+import { BskyAgent, RichText } from '@atproto/api';
 import { captureAemetMap } from './scrap.js';
 import { Rss } from './Rss.js';
 import dotenv from 'dotenv';
@@ -221,13 +221,22 @@ class Main {
 
     private currentData(mainJson: AemetGeneralAlert): AemetGeneralAlert {
         mainJson.rss.channel.item = mainJson.rss.channel.item.filter(item => {
-            const match = item.description._text.match(/\d{2}:\d{2} \d{2}-\d{2}-\d{4}/);
+            const match = item.description._text.match(/\d{2}:\d{2} \d{2}-\d{2}-\d{4} CET \(UTC\+[0-9]+\) a \d{2}:\d{2} \d{2}-\d{2}-\d{4} CET \(UTC\+[0-9]+\)/);
             if (match) {
-                const [time, date] = match[0].split(' ');
+                const [ini, fin] = match[0].split(' a '); 
+                console.log(fin);
+                
+                const [time, date] = fin.split(' ');
                 const [day, month, year] = date.split('-');
-                const itemDate = new Date(`${year}-${month}-${day}`);
+                const [hour, minute] = time.split(':');
+                const itemDate = new Date(`${year}-${month}-${day}T${hour}:${minute}:00`);
+                const now = new Date();
 
-                return itemDate.toISOString().split('T')[0] === new Date().toISOString().split('T')[0];
+                console.log("final: ", itemDate.getTime);
+                console.log("final: ", now.getTime);
+                
+
+                return itemDate.getTime() >= now.getTime();
             }
 
             return false;
@@ -260,8 +269,7 @@ class Main {
         let mainJson: AemetGeneralAlert = mainRss.json as AemetGeneralAlert;
 
         const main = new Main();
-        //mainJson = main.currentData(mainJson);
-        // Aemet doesnt use current data for their map, but the general one.
+        mainJson = main.currentData(mainJson);
         main.waringPerComm(mainJson);
 
         dotenv.config();
@@ -281,11 +289,7 @@ class Main {
 
         const postText: string = main.buildMessage();
         console.log(postText);
-        console.log("---");
-        console.log(postText.indexOf("aemet.es"));
         
-        const offset: number =  postText.split(/\r\n|\r|\n/).length;
-        console.log(offset);
         
 
         let response = await agent.post({
@@ -302,8 +306,12 @@ class Main {
             facets: [
                 {
                     index: {
-                        byteStart: postText.indexOf("aemet.es")+offset+2,
-                        byteEnd: postText.indexOf("aemet.es")+offset+2+8
+                        byteStart: new RichText({
+                            text: postText.substring(0, postText.indexOf("aemet.es"))
+                        }).length,
+                        byteEnd: new RichText({
+                            text: postText.substring(0, postText.indexOf("aemet.es"))
+                        }).length + 8,
                     },
                     features: [{
                         $type: 'app.bsky.richtext.facet#link',
