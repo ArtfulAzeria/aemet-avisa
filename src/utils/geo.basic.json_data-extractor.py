@@ -24,7 +24,7 @@ provincias = [
     "Ourense", "Pontevedra",
     "La Rioja", "Madrid", "Murcia", "Navarra", "Araba/Álava", "Gipuzkoa", "Bizkaia",
     "Alacant/Alicante", "Castelló/Castellón", "València/Valencia",
-    "Ibiza y Formentera", "Mallorca", "Gran Canaria",
+    "Ibiza y Formentera", "Mallorca", "Gran Canaria", "Menorca",
     "Lanzarote", "Fuerteventura", "La Palma", "La Gomera", "El Hierro", "Tenerife",
     "Ceuta", "Melilla"
 ]
@@ -74,7 +74,7 @@ def split_pattern(text):
             }   
             fullJSON.append(data)
 
-    with open('./resources/geo.json', 'w', encoding='utf-8') as json_file:
+    with open('./resources/geo.basic.json', 'w', encoding='utf-8') as json_file:
         json.dump(fullJSON, json_file, ensure_ascii=False, indent=4)
     
 

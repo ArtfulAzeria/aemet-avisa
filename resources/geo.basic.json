@@ -1,0 +1,1633 @@
+[
+    {
+        "code": "610401",
+        "zone": "Valle del Almanzora y Los Vélez",
+        "prov": "Almería",
+        "comm": "Andalucía",
+        "seab": "0"
+    },
+    {
+        "code": "610402",
+        "zone": "Nacimiento y Campo de Tabernas",
+        "prov": "Almería",
+        "comm": "Andalucía",
+        "seab": "0"
+    },
+    {
+        "code": "610403",
+        "zone": "Poniente y Almería Capital",
+        "prov": "Almería",
+        "comm": "Andalucía",
+        "seab": "1"
+    },
+    {
+        "code": "610403C",
+        "zone": "Poniente y Almería Capital",
+        "prov": "Almería",
+        "comm": "Andalucía",
+        "seab": "1"
+    },
+    {
+        "code": "610404",
+        "zone": "Levante almeriense",
+        "prov": "Almería",
+        "comm": "Andalucía",
+        "seab": "1"
+    },
+    {
+        "code": "610404C",
+        "zone": "Levante almeriense",
+        "prov": "Almería",
+        "comm": "Andalucía",
+        "seab": "1"
+    },
+    {
+        "code": "611101",
+        "zone": "Grazalema",
+        "prov": "Cádiz",
+        "comm": "Andalucía",
+        "seab": "0"
+    },
+    {
+        "code": "611102",
+        "zone": "Campiña gaditana",
+        "prov": "Cádiz",
+        "comm": "Andalucía",
+        "seab": "0"
+    },
+    {
+        "code": "611103",
+        "zone": "Litoral gaditano",
+        "prov": "Cádiz",
+        "comm": "Andalucía",
+        "seab": "1"
+    },
+    {
+        "code": "611103C",
+        "zone": "Litoral gaditano",
+        "prov": "Cádiz",
+        "comm": "Andalucía",
+        "seab": "1"
+    },
+    {
+        "code": "611104",
+        "zone": "Estrecho",
+        "prov": "Cádiz",
+        "comm": "Andalucía",
+        "seab": "1"
+    },
+    {
+        "code": "611104C",
+        "zone": "Estrecho",
+        "prov": "Cádiz",
+        "comm": "Andalucía",
+        "seab": "1"
+    },
+    {
+        "code": "611401",
+        "zone": "Sierra y Pedroches",
+        "prov": "Córdoba",
+        "comm": "Andalucía",
+        "seab": "0"
+    },
+    {
+        "code": "611402",
+        "zone": "Campiña cordobesa",
+        "prov": "Córdoba",
+        "comm": "Andalucía",
+        "seab": "0"
+    },
+    {
+        "code": "611403",
+        "zone": "Subbética cordobesa",
+        "prov": "Córdoba",
+        "comm": "Andalucía",
+        "seab": "0"
+    },
+    {
+        "code": "611801",
+        "zone": "Cuenca del Genil",
+        "prov": "Granada",
+        "comm": "Andalucía",
+        "seab": "0"
+    },
+    {
+        "code": "611802",
+        "zone": "Guadix y Baza",
+        "prov": "Granada",
+        "comm": "Andalucía",
+        "seab": "0"
+    },
+    {
+        "code": "611803",
+        "zone": "Nevada y Alpujarras",
+        "prov": "Granada",
+        "comm": "Andalucía",
+        "seab": "0"
+    },
+    {
+        "code": "611804",
+        "zone": "Costa granadina",
+        "prov": "Granada",
+        "comm": "Andalucía",
+        "seab": "1"
+    },
+    {
+        "code": "611804C",
+        "zone": "Costa granadina",
+        "prov": "Granada",
+        "comm": "Andalucía",
+        "seab": "1"
+    },
+    {
+        "code": "612101",
+        "zone": "Aracena",
+        "prov": "Huelva",
+        "comm": "Andalucía",
+        "seab": "0"
+    },
+    {
+        "code": "612102",
+        "zone": "Andévalo y Condado",
+        "prov": "Huelva",
+        "comm": "Andalucía",
+        "seab": "0"
+    },
+    {
+        "code": "612103",
+        "zone": "Litoral de Huelva",
+        "prov": "Huelva",
+        "comm": "Andalucía",
+        "seab": "1"
+    },
+    {
+        "code": "612103C",
+        "zone": "Litoral de Huelva",
+        "prov": "Huelva",
+        "comm": "Andalucía",
+        "seab": "1"
+    },
+    {
+        "code": "612301",
+        "zone": "Morena y Condado",
+        "prov": "Jaén",
+        "comm": "Andalucía",
+        "seab": "0"
+    },
+    {
+        "code": "612302",
+        "zone": "Cazorla y Segura",
+        "prov": "Jaén",
+        "comm": "Andalucía",
+        "seab": "0"
+    },
+    {
+        "code": "612303",
+        "zone": "Valle del Guadalquivir de Jaén",
+        "prov": "Jaén",
+        "comm": "Andalucía",
+        "seab": "0"
+    },
+    {
+        "code": "612304",
+        "zone": "Capital y Montes de Jaén",
+        "prov": "Jaén",
+        "comm": "Andalucía",
+        "seab": "0"
+    },
+    {
+        "code": "612901",
+        "zone": "Antequera",
+        "prov": "Málaga",
+        "comm": "Andalucía",
+        "seab": "0"
+    },
+    {
+        "code": "612902",
+        "zone": "Ronda",
+        "prov": "Málaga",
+        "comm": "Andalucía",
+        "seab": "0"
+    },
+    {
+        "code": "612903",
+        "zone": "Sol y Guadalhorce",
+        "prov": "Málaga",
+        "comm": "Andalucía",
+        "seab": "1"
+    },
+    {
+        "code": "612903C",
+        "zone": "Sol y Guadalhorce",
+        "prov": "Málaga",
+        "comm": "Andalucía",
+        "seab": "1"
+    },
+    {
+        "code": "612904",
+        "zone": "Axarquía",
+        "prov": "Málaga",
+        "comm": "Andalucía",
+        "seab": "1"
+    },
+    {
+        "code": "612904C",
+        "zone": "Axarquía",
+        "prov": "Málaga",
+        "comm": "Andalucía",
+        "seab": "1"
+    },
+    {
+        "code": "614101",
+        "zone": "Sierra norte de Sevilla",
+        "prov": "Sevilla",
+        "comm": "Andalucía",
+        "seab": "0"
+    },
+    {
+        "code": "614102",
+        "zone": "Campiña sevillana",
+        "prov": "Sevilla",
+        "comm": "Andalucía",
+        "seab": "0"
+    },
+    {
+        "code": "614103",
+        "zone": "Sierra sur de Sevilla",
+        "prov": "Sevilla",
+        "comm": "Andalucía",
+        "seab": "0"
+    },
+    {
+        "code": "622201",
+        "zone": "Pirineo oscense",
+        "prov": "Huesca",
+        "comm": "Aragón",
+        "seab": "0"
+    },
+    {
+        "code": "622202",
+        "zone": "Centro de Huesca",
+        "prov": "Huesca",
+        "comm": "Aragón",
+        "seab": "0"
+    },
+    {
+        "code": "622203",
+        "zone": "Sur de Huesca",
+        "prov": "Huesca",
+        "comm": "Aragón",
+        "seab": "0"
+    },
+    {
+        "code": "624401",
+        "zone": "Albarracín y Jiloca",
+        "prov": "Teruel",
+        "comm": "Aragón",
+        "seab": "0"
+    },
+    {
+        "code": "624402",
+        "zone": "Gúdar y Maestrazgo",
+        "prov": "Teruel",
+        "comm": "Aragón",
+        "seab": "0"
+    },
+    {
+        "code": "624403",
+        "zone": "Bajo Aragón de Teruel",
+        "prov": "Teruel",
+        "comm": "Aragón",
+        "seab": "0"
+    },
+    {
+        "code": "625001",
+        "zone": "Cinco Villas de Zaragoza",
+        "prov": "Zaragoza",
+        "comm": "Aragón",
+        "seab": "0"
+    },
+    {
+        "code": "625002",
+        "zone": "Ibérica zaragozana",
+        "prov": "Zaragoza",
+        "comm": "Aragón",
+        "seab": "0"
+    },
+    {
+        "code": "625003",
+        "zone": "Ribera del Ebro de Zaragoza",
+        "prov": "Zaragoza",
+        "comm": "Aragón",
+        "seab": "0"
+    },
+    {
+        "code": "633301",
+        "zone": "Litoral occidental asturiano",
+        "prov": "Asturias",
+        "comm": "Principado de Asturias",
+        "seab": "1"
+    },
+    {
+        "code": "633301C",
+        "zone": "Litoral occidental asturiano",
+        "prov": "Asturias",
+        "comm": "Principado de Asturias",
+        "seab": "1"
+    },
+    {
+        "code": "633302",
+        "zone": "Litoral oriental asturiano",
+        "prov": "Asturias",
+        "comm": "Principado de Asturias",
+        "seab": "1"
+    },
+    {
+        "code": "633302C",
+        "zone": "Litoral oriental asturiano",
+        "prov": "Asturias",
+        "comm": "Principado de Asturias",
+        "seab": "1"
+    },
+    {
+        "code": "633303",
+        "zone": "Suroccidental asturiana",
+        "prov": "Asturias",
+        "comm": "Principado de Asturias",
+        "seab": "0"
+    },
+    {
+        "code": "633304",
+        "zone": "Central y Valles Mineros",
+        "prov": "Asturias",
+        "comm": "Principado de Asturias",
+        "seab": "0"
+    },
+    {
+        "code": "633305",
+        "zone": "Cordillera y Picos de Europa",
+        "prov": "Asturias",
+        "comm": "Principado de Asturias",
+        "seab": "0"
+    },
+    {
+        "code": "645301",
+        "zone": "Ibiza y Formentera",
+        "prov": "Ibiza y Formentera",
+        "comm": "Illes Balears",
+        "seab": "1"
+    },
+    {
+        "code": "645301C",
+        "zone": "Ibiza y Formentera",
+        "prov": "Ibiza y Formentera",
+        "comm": "Illes Balears",
+        "seab": "1"
+    },
+    {
+        "code": "645401",
+        "zone": "Sierra Tramontana",
+        "prov": "Mallorca",
+        "comm": "Illes Balears",
+        "seab": "1"
+    },
+    {
+        "code": "645401C",
+        "zone": "Sierra Tramontana",
+        "prov": "Mallorca",
+        "comm": "Illes Balears",
+        "seab": "1"
+    },
+    {
+        "code": "645402",
+        "zone": "Norte y nordeste de Mallorca",
+        "prov": "Mallorca",
+        "comm": "Illes Balears",
+        "seab": "1"
+    },
+    {
+        "code": "645402C",
+        "zone": "Norte y nordeste de Mallorca",
+        "prov": "Mallorca",
+        "comm": "Illes Balears",
+        "seab": "1"
+    },
+    {
+        "code": "645403",
+        "zone": "Interior de Mallorca",
+        "prov": "Mallorca",
+        "comm": "Illes Balears",
+        "seab": "0"
+    },
+    {
+        "code": "645404",
+        "zone": "Sur de Mallorca",
+        "prov": "Mallorca",
+        "comm": "Illes Balears",
+        "seab": "1"
+    },
+    {
+        "code": "645404C",
+        "zone": "Sur de Mallorca",
+        "prov": "Mallorca",
+        "comm": "Illes Balears",
+        "seab": "1"
+    },
+    {
+        "code": "645405",
+        "zone": "Levante mallorquín",
+        "prov": "Mallorca",
+        "comm": "Illes Balears",
+        "seab": "1"
+    },
+    {
+        "code": "645405C",
+        "zone": "Levante mallorquín",
+        "prov": "Mallorca",
+        "comm": "Illes Balears",
+        "seab": "1"
+    },
+    {
+        "code": "645501",
+        "zone": "Menorca",
+        "prov": "Menorca",
+        "comm": "Illes Balears",
+        "seab": "1"
+    },
+    {
+        "code": "645501C",
+        "zone": "Menorca",
+        "prov": "Menorca",
+        "comm": "Illes Balears",
+        "seab": "1"
+    },
+    {
+        "code": "659001",
+        "zone": "Norte de Gran Canaria",
+        "prov": "Gran Canaria",
+        "comm": "Canarias",
+        "seab": "1"
+    },
+    {
+        "code": "659001C",
+        "zone": "Norte de Gran Canaria",
+        "prov": "Gran Canaria",
+        "comm": "Canarias",
+        "seab": "1"
+    },
+    {
+        "code": "659003",
+        "zone": "Cumbres de Gran Canaria",
+        "prov": "Gran Canaria",
+        "comm": "Canarias",
+        "seab": "0"
+    },
+    {
+        "code": "659004",
+        "zone": "Este, sur y oeste de Gran Canaria",
+        "prov": "Gran Canaria",
+        "comm": "Canarias",
+        "seab": "1"
+    },
+    {
+        "code": "659004C",
+        "zone": "Este, sur y oeste de Gran Canaria",
+        "prov": "Gran Canaria",
+        "comm": "Canarias",
+        "seab": "1"
+    },
+    {
+        "code": "659101",
+        "zone": "Lanzarote",
+        "prov": "Lanzarote",
+        "comm": "Canarias",
+        "seab": "1"
+    },
+    {
+        "code": "659101C",
+        "zone": "Lanzarote",
+        "prov": "Lanzarote",
+        "comm": "Canarias",
+        "seab": "1"
+    },
+    {
+        "code": "659201",
+        "zone": "Fuerteventura",
+        "prov": "Fuerteventura",
+        "comm": "Canarias",
+        "seab": "1"
+    },
+    {
+        "code": "659201C",
+        "zone": "Fuerteventura",
+        "prov": "Fuerteventura",
+        "comm": "Canarias",
+        "seab": "1"
+    },
+    {
+        "code": "659302",
+        "zone": "Cumbres de La Palma",
+        "prov": "La Palma",
+        "comm": "Canarias",
+        "seab": "0"
+    },
+    {
+        "code": "659303",
+        "zone": "Este de La Palma",
+        "prov": "La Palma",
+        "comm": "Canarias",
+        "seab": "1"
+    },
+    {
+        "code": "659303C",
+        "zone": "Este de La Palma",
+        "prov": "La Palma",
+        "comm": "Canarias",
+        "seab": "1"
+    },
+    {
+        "code": "659304",
+        "zone": "Oeste de La Palma",
+        "prov": "La Palma",
+        "comm": "Canarias",
+        "seab": "1"
+    },
+    {
+        "code": "659304C",
+        "zone": "Oeste de La Palma",
+        "prov": "La Palma",
+        "comm": "Canarias",
+        "seab": "1"
+    },
+    {
+        "code": "659401",
+        "zone": "La Gomera",
+        "prov": "La Gomera",
+        "comm": "Canarias",
+        "seab": "1"
+    },
+    {
+        "code": "659401C",
+        "zone": "La Gomera",
+        "prov": "La Gomera",
+        "comm": "Canarias",
+        "seab": "1"
+    },
+    {
+        "code": "659501",
+        "zone": "El Hierro",
+        "prov": "El Hierro",
+        "comm": "Canarias",
+        "seab": "1"
+    },
+    {
+        "code": "659501C",
+        "zone": "El Hierro",
+        "prov": "El Hierro",
+        "comm": "Canarias",
+        "seab": "1"
+    },
+    {
+        "code": "659601",
+        "zone": "Norte de Tenerife",
+        "prov": "Tenerife",
+        "comm": "Canarias",
+        "seab": "1"
+    },
+    {
+        "code": "659601C",
+        "zone": "Norte de Tenerife",
+        "prov": "Tenerife",
+        "comm": "Canarias",
+        "seab": "1"
+    },
+    {
+        "code": "659602",
+        "zone": "Área metropolitana de Tenerife",
+        "prov": "Tenerife",
+        "comm": "Canarias",
+        "seab": "1"
+    },
+    {
+        "code": "659602C",
+        "zone": "Área metropolitana de Tenerife",
+        "prov": "Tenerife",
+        "comm": "Canarias",
+        "seab": "1"
+    },
+    {
+        "code": "659603",
+        "zone": "Este, sur y oeste de Tenerife",
+        "prov": "Tenerife",
+        "comm": "Canarias",
+        "seab": "1"
+    },
+    {
+        "code": "659603C",
+        "zone": "Este, sur y oeste de Tenerife",
+        "prov": "Tenerife",
+        "comm": "Canarias",
+        "seab": "1"
+    },
+    {
+        "code": "663901",
+        "zone": "Litoral cántabro",
+        "prov": "Cantabria",
+        "comm": "Cantabria",
+        "seab": "1"
+    },
+    {
+        "code": "663901C",
+        "zone": "Litoral cántabro",
+        "prov": "Cantabria",
+        "comm": "Cantabria",
+        "seab": "1"
+    },
+    {
+        "code": "663902",
+        "zone": "Liébana",
+        "prov": "Cantabria",
+        "comm": "Cantabria",
+        "seab": "0"
+    },
+    {
+        "code": "663903",
+        "zone": "Centro y valle de Villaverde",
+        "prov": "Cantabria",
+        "comm": "Cantabria",
+        "seab": "0"
+    },
+    {
+        "code": "663904",
+        "zone": "Cantabria del Ebro",
+        "prov": "Cantabria",
+        "comm": "Cantabria",
+        "seab": "0"
+    },
+    {
+        "code": "670501",
+        "zone": "Meseta de Ávila",
+        "prov": "Ávila",
+        "comm": "Castilla y León",
+        "seab": "0"
+    },
+    {
+        "code": "670502",
+        "zone": "Sistema Central de Ávila",
+        "prov": "Ávila",
+        "comm": "Castilla y León",
+        "seab": "0"
+    },
+    {
+        "code": "670503",
+        "zone": "Sur de Ávila",
+        "prov": "Ávila",
+        "comm": "Castilla y León",
+        "seab": "0"
+    },
+    {
+        "code": "670901",
+        "zone": "Cordillera Cantábrica de Burgos",
+        "prov": "Burgos",
+        "comm": "Castilla y León",
+        "seab": "0"
+    },
+    {
+        "code": "670902",
+        "zone": "Norte de Burgos",
+        "prov": "Burgos",
+        "comm": "Castilla y León",
+        "seab": "0"
+    },
+    {
+        "code": "670903",
+        "zone": "Condado de Treviño",
+        "prov": "Burgos",
+        "comm": "Castilla y León",
+        "seab": "0"
+    },
+    {
+        "code": "670904",
+        "zone": "Meseta de Burgos",
+        "prov": "Burgos",
+        "comm": "Castilla y León",
+        "seab": "0"
+    },
+    {
+        "code": "670905",
+        "zone": "Ibérica de Burgos",
+        "prov": "Burgos",
+        "comm": "Castilla y León",
+        "seab": "0"
+    },
+    {
+        "code": "672401",
+        "zone": "Cordillera Cantábrica de León",
+        "prov": "León",
+        "comm": "Castilla y León",
+        "seab": "0"
+    },
+    {
+        "code": "672402",
+        "zone": "Bierzo de León",
+        "prov": "León",
+        "comm": "Castilla y León",
+        "seab": "0"
+    },
+    {
+        "code": "672403",
+        "zone": "Meseta de León",
+        "prov": "León",
+        "comm": "Castilla y León",
+        "seab": "0"
+    },
+    {
+        "code": "673401",
+        "zone": "Cordillera Cantábrica de Palencia",
+        "prov": "Palencia",
+        "comm": "Castilla y León",
+        "seab": "0"
+    },
+    {
+        "code": "673402",
+        "zone": "Meseta de Palencia",
+        "prov": "Palencia",
+        "comm": "Castilla y León",
+        "seab": "0"
+    },
+    {
+        "code": "673701",
+        "zone": "Meseta de Salamanca",
+        "prov": "Salamanca",
+        "comm": "Castilla y León",
+        "seab": "0"
+    },
+    {
+        "code": "673702",
+        "zone": "Sistema Central de Salamanca",
+        "prov": "Salamanca",
+        "comm": "Castilla y León",
+        "seab": "0"
+    },
+    {
+        "code": "673703",
+        "zone": "Sur de Salamanca",
+        "prov": "Salamanca",
+        "comm": "Castilla y León",
+        "seab": "0"
+    },
+    {
+        "code": "674001",
+        "zone": "Meseta de Segovia",
+        "prov": "Segovia",
+        "comm": "Castilla y León",
+        "seab": "0"
+    },
+    {
+        "code": "674002",
+        "zone": "Sistema Central de Segovia",
+        "prov": "Segovia",
+        "comm": "Castilla y León",
+        "seab": "0"
+    },
+    {
+        "code": "674201",
+        "zone": "Ibérica de Soria",
+        "prov": "Soria",
+        "comm": "Castilla y León",
+        "seab": "0"
+    },
+    {
+        "code": "674202",
+        "zone": "Meseta de Soria",
+        "prov": "Soria",
+        "comm": "Castilla y León",
+        "seab": "0"
+    },
+    {
+        "code": "674203",
+        "zone": "Sistema Central de Soria",
+        "prov": "Soria",
+        "comm": "Castilla y León",
+        "seab": "0"
+    },
+    {
+        "code": "674701",
+        "zone": "Meseta de Valladolid",
+        "prov": "Valladolid",
+        "comm": "Castilla y León",
+        "seab": "0"
+    },
+    {
+        "code": "674901",
+        "zone": "Sanabria",
+        "prov": "Zamora",
+        "comm": "Castilla y León",
+        "seab": "0"
+    },
+    {
+        "code": "674902",
+        "zone": "Meseta de Zamora",
+        "prov": "Zamora",
+        "comm": "Castilla y León",
+        "seab": "0"
+    },
+    {
+        "code": "680201",
+        "zone": "La Mancha albaceteña",
+        "prov": "Albacete",
+        "comm": "Castilla - La Mancha",
+        "seab": "0"
+    },
+    {
+        "code": "680202",
+        "zone": "Alcaraz y Segura",
+        "prov": "Albacete",
+        "comm": "Castilla - La Mancha",
+        "seab": "0"
+    },
+    {
+        "code": "680203",
+        "zone": "Hellín y Almansa",
+        "prov": "Albacete",
+        "comm": "Castilla - La Mancha",
+        "seab": "0"
+    },
+    {
+        "code": "681301",
+        "zone": "Montes del norte y Anchuras",
+        "prov": "Ciudad Real",
+        "comm": "Castilla - La Mancha",
+        "seab": "0"
+    },
+    {
+        "code": "681302",
+        "zone": "La Mancha de Ciudad Real",
+        "prov": "Ciudad Real",
+        "comm": "Castilla - La Mancha",
+        "seab": "0"
+    },
+    {
+        "code": "681303",
+        "zone": "Valle del Guadiana",
+        "prov": "Ciudad Real",
+        "comm": "Castilla - La Mancha",
+        "seab": "0"
+    },
+    {
+        "code": "681304",
+        "zone": "Sierras de Alcudia y Madrona",
+        "prov": "Ciudad Real",
+        "comm": "Castilla - La Mancha",
+        "seab": "0"
+    },
+    {
+        "code": "681601",
+        "zone": "Alcarria conquense",
+        "prov": "Cuenca",
+        "comm": "Castilla - La Mancha",
+        "seab": "0"
+    },
+    {
+        "code": "681602",
+        "zone": "Serranía de Cuenca",
+        "prov": "Cuenca",
+        "comm": "Castilla - La Mancha",
+        "seab": "0"
+    },
+    {
+        "code": "681603",
+        "zone": "La Mancha conquense",
+        "prov": "Cuenca",
+        "comm": "Castilla - La Mancha",
+        "seab": "0"
+    },
+    {
+        "code": "681901",
+        "zone": "Serranía de Guadalajara",
+        "prov": "Guadalajara",
+        "comm": "Castilla - La Mancha",
+        "seab": "0"
+    },
+    {
+        "code": "681902",
+        "zone": "Parameras de Molina",
+        "prov": "Guadalajara",
+        "comm": "Castilla - La Mancha",
+        "seab": "0"
+    },
+    {
+        "code": "681903",
+        "zone": "Alcarria de Guadalajara",
+        "prov": "Guadalajara",
+        "comm": "Castilla - La Mancha",
+        "seab": "0"
+    },
+    {
+        "code": "684501",
+        "zone": "Sierra de San Vicente",
+        "prov": "Toledo",
+        "comm": "Castilla - La Mancha",
+        "seab": "0"
+    },
+    {
+        "code": "684502",
+        "zone": "Valle del Tajo",
+        "prov": "Toledo",
+        "comm": "Castilla - La Mancha",
+        "seab": "0"
+    },
+    {
+        "code": "684503",
+        "zone": "Montes de Toledo",
+        "prov": "Toledo",
+        "comm": "Castilla - La Mancha",
+        "seab": "0"
+    },
+    {
+        "code": "684504",
+        "zone": "La Mancha toledana",
+        "prov": "Toledo",
+        "comm": "Castilla - La Mancha",
+        "seab": "0"
+    },
+    {
+        "code": "690801",
+        "zone": "Prepirineo de Barcelona",
+        "prov": "Barcelona",
+        "comm": "Cataluña",
+        "seab": "0"
+    },
+    {
+        "code": "690802",
+        "zone": "Depresión central de Barcelona",
+        "prov": "Barcelona",
+        "comm": "Cataluña",
+        "seab": "0"
+    },
+    {
+        "code": "690803",
+        "zone": "Prelitoral de Barcelona",
+        "prov": "Barcelona",
+        "comm": "Cataluña",
+        "seab": "0"
+    },
+    {
+        "code": "690804",
+        "zone": "Litoral de Barcelona",
+        "prov": "Barcelona",
+        "comm": "Cataluña",
+        "seab": "1"
+    },
+    {
+        "code": "690804C",
+        "zone": "Litoral de Barcelona",
+        "prov": "Barcelona",
+        "comm": "Cataluña",
+        "seab": "1"
+    },
+    {
+        "code": "691701",
+        "zone": "Pirineo de Girona",
+        "prov": "Girona",
+        "comm": "Cataluña",
+        "seab": "0"
+    },
+    {
+        "code": "691702",
+        "zone": "Prelitoral de Girona",
+        "prov": "Girona",
+        "comm": "Cataluña",
+        "seab": "0"
+    },
+    {
+        "code": "691703",
+        "zone": "Ampurdán",
+        "prov": "Girona",
+        "comm": "Cataluña",
+        "seab": "1"
+    },
+    {
+        "code": "691703C",
+        "zone": "Ampurdán",
+        "prov": "Girona",
+        "comm": "Cataluña",
+        "seab": "1"
+    },
+    {
+        "code": "691704",
+        "zone": "Litoral sur de Girona",
+        "prov": "Girona",
+        "comm": "Cataluña",
+        "seab": "1"
+    },
+    {
+        "code": "691704C",
+        "zone": "Litoral sur de Girona",
+        "prov": "Girona",
+        "comm": "Cataluña",
+        "seab": "1"
+    },
+    {
+        "code": "692501",
+        "zone": "Valle de Arán",
+        "prov": "Lleida",
+        "comm": "Cataluña",
+        "seab": "0"
+    },
+    {
+        "code": "692502",
+        "zone": "Pirineo de Lleida",
+        "prov": "Lleida",
+        "comm": "Cataluña",
+        "seab": "0"
+    },
+    {
+        "code": "692503",
+        "zone": "Depresión central de Lleida",
+        "prov": "Lleida",
+        "comm": "Cataluña",
+        "seab": "0"
+    },
+    {
+        "code": "694301",
+        "zone": "Depresión central de Tarragona",
+        "prov": "Tarragona",
+        "comm": "Cataluña",
+        "seab": "0"
+    },
+    {
+        "code": "694302",
+        "zone": "Prelitoral norte de Tarragona",
+        "prov": "Tarragona",
+        "comm": "Cataluña",
+        "seab": "0"
+    },
+    {
+        "code": "694303",
+        "zone": "Litoral norte de Tarragona",
+        "prov": "Tarragona",
+        "comm": "Cataluña",
+        "seab": "1"
+    },
+    {
+        "code": "694303C",
+        "zone": "Litoral norte de Tarragona",
+        "prov": "Tarragona",
+        "comm": "Cataluña",
+        "seab": "1"
+    },
+    {
+        "code": "694304",
+        "zone": "Litoral sur de Tarragona",
+        "prov": "Tarragona",
+        "comm": "Cataluña",
+        "seab": "1"
+    },
+    {
+        "code": "694304C",
+        "zone": "Litoral sur de Tarragona",
+        "prov": "Tarragona",
+        "comm": "Cataluña",
+        "seab": "1"
+    },
+    {
+        "code": "694305",
+        "zone": "Prelitoral sur de Tarragona",
+        "prov": "Tarragona",
+        "comm": "Cataluña",
+        "seab": "0"
+    },
+    {
+        "code": "700601",
+        "zone": "Vegas del Guadiana",
+        "prov": "Badajoz",
+        "comm": "Extremadura",
+        "seab": "0"
+    },
+    {
+        "code": "700602",
+        "zone": "La Siberia extremeña",
+        "prov": "Badajoz",
+        "comm": "Extremadura",
+        "seab": "0"
+    },
+    {
+        "code": "700603",
+        "zone": "Barros y Serena",
+        "prov": "Badajoz",
+        "comm": "Extremadura",
+        "seab": "0"
+    },
+    {
+        "code": "700604",
+        "zone": "Sur de Badajoz",
+        "prov": "Badajoz",
+        "comm": "Extremadura",
+        "seab": "0"
+    },
+    {
+        "code": "701001",
+        "zone": "Norte de Cáceres",
+        "prov": "Cáceres",
+        "comm": "Extremadura",
+        "seab": "0"
+    },
+    {
+        "code": "701002",
+        "zone": "Tajo y Alagón",
+        "prov": "Cáceres",
+        "comm": "Extremadura",
+        "seab": "0"
+    },
+    {
+        "code": "701003",
+        "zone": "Meseta cacereña",
+        "prov": "Cáceres",
+        "comm": "Extremadura",
+        "seab": "0"
+    },
+    {
+        "code": "701004",
+        "zone": "Villuercas y Montánchez",
+        "prov": "Cáceres",
+        "comm": "Extremadura",
+        "seab": "0"
+    },
+    {
+        "code": "711501",
+        "zone": "Noroeste de A Coruña",
+        "prov": "A Coruña",
+        "comm": "Galicia",
+        "seab": "1"
+    },
+    {
+        "code": "711501C",
+        "zone": "Noroeste de A Coruña",
+        "prov": "A Coruña",
+        "comm": "Galicia",
+        "seab": "1"
+    },
+    {
+        "code": "711502",
+        "zone": "Oeste de A Coruña",
+        "prov": "A Coruña",
+        "comm": "Galicia",
+        "seab": "1"
+    },
+    {
+        "code": "711502C",
+        "zone": "Oeste de A Coruña",
+        "prov": "A Coruña",
+        "comm": "Galicia",
+        "seab": "1"
+    },
+    {
+        "code": "711503",
+        "zone": "Interior de A Coruña",
+        "prov": "A Coruña",
+        "comm": "Galicia",
+        "seab": "0"
+    },
+    {
+        "code": "711504",
+        "zone": "Suroeste de A Coruña",
+        "prov": "A Coruña",
+        "comm": "Galicia",
+        "seab": "1"
+    },
+    {
+        "code": "711504C",
+        "zone": "Suroeste de A Coruña",
+        "prov": "A Coruña",
+        "comm": "Galicia",
+        "seab": "1"
+    },
+    {
+        "code": "712701",
+        "zone": "A Mariña",
+        "prov": "Lugo",
+        "comm": "Galicia",
+        "seab": "1"
+    },
+    {
+        "code": "712701C",
+        "zone": "A Mariña",
+        "prov": "Lugo",
+        "comm": "Galicia",
+        "seab": "1"
+    },
+    {
+        "code": "712702",
+        "zone": "Centro de Lugo",
+        "prov": "Lugo",
+        "comm": "Galicia",
+        "seab": "0"
+    },
+    {
+        "code": "712703",
+        "zone": "Montaña de Lugo",
+        "prov": "Lugo",
+        "comm": "Galicia",
+        "seab": "0"
+    },
+    {
+        "code": "712704",
+        "zone": "Sur de Lugo",
+        "prov": "Lugo",
+        "comm": "Galicia",
+        "seab": "0"
+    },
+    {
+        "code": "713201",
+        "zone": "Noroeste de Ourense",
+        "prov": "Ourense",
+        "comm": "Galicia",
+        "seab": "0"
+    },
+    {
+        "code": "713202",
+        "zone": "Miño de Ourense",
+        "prov": "Ourense",
+        "comm": "Galicia",
+        "seab": "0"
+    },
+    {
+        "code": "713203",
+        "zone": "Sur de Ourense",
+        "prov": "Ourense",
+        "comm": "Galicia",
+        "seab": "0"
+    },
+    {
+        "code": "713204",
+        "zone": "Montaña de Ourense",
+        "prov": "Ourense",
+        "comm": "Galicia",
+        "seab": "0"
+    },
+    {
+        "code": "713205",
+        "zone": "Valdeorras",
+        "prov": "Ourense",
+        "comm": "Galicia",
+        "seab": "0"
+    },
+    {
+        "code": "713601",
+        "zone": "Rias Baixas",
+        "prov": "Pontevedra",
+        "comm": "Galicia",
+        "seab": "1"
+    },
+    {
+        "code": "713601C",
+        "zone": "Rias Baixas",
+        "prov": "Pontevedra",
+        "comm": "Galicia",
+        "seab": "1"
+    },
+    {
+        "code": "713602",
+        "zone": "Interior de Pontevedra",
+        "prov": "Pontevedra",
+        "comm": "Galicia",
+        "seab": "0"
+    },
+    {
+        "code": "713603",
+        "zone": "Miño de Pontevedra",
+        "prov": "Pontevedra",
+        "comm": "Galicia",
+        "seab": "1"
+    },
+    {
+        "code": "713603C",
+        "zone": "Miño de Pontevedra",
+        "prov": "Pontevedra",
+        "comm": "Galicia",
+        "seab": "1"
+    },
+    {
+        "code": "722801",
+        "zone": "Sierra de Madrid",
+        "prov": "Madrid",
+        "comm": "Comunidad de Madrid",
+        "seab": "0"
+    },
+    {
+        "code": "722802",
+        "zone": "Metropolitana y Henares",
+        "prov": "Madrid",
+        "comm": "Comunidad de Madrid",
+        "seab": "0"
+    },
+    {
+        "code": "722803",
+        "zone": "Sur, Vegas y Oeste",
+        "prov": "Madrid",
+        "comm": "Comunidad de Madrid",
+        "seab": "0"
+    },
+    {
+        "code": "733001",
+        "zone": "Altiplano de Murcia",
+        "prov": "Murcia",
+        "comm": "Región de Murcia",
+        "seab": "0"
+    },
+    {
+        "code": "733002",
+        "zone": "Noroeste de Murcia",
+        "prov": "Murcia",
+        "comm": "Región de Murcia",
+        "seab": "0"
+    },
+    {
+        "code": "733003",
+        "zone": "Vega del Segura",
+        "prov": "Murcia",
+        "comm": "Región de Murcia",
+        "seab": "0"
+    },
+    {
+        "code": "733004",
+        "zone": "Valle del Guadalentín, Lorca y Águilas",
+        "prov": "Murcia",
+        "comm": "Región de Murcia",
+        "seab": "1"
+    },
+    {
+        "code": "733004C",
+        "zone": "Valle del Guadalentín, Lorca y Águilas",
+        "prov": "Murcia",
+        "comm": "Región de Murcia",
+        "seab": "1"
+    },
+    {
+        "code": "733005",
+        "zone": "Campo de Cartagena y Mazarrón",
+        "prov": "Murcia",
+        "comm": "Región de Murcia",
+        "seab": "1"
+    },
+    {
+        "code": "733005C",
+        "zone": "Campo de Cartagena y Mazarrón",
+        "prov": "Murcia",
+        "comm": "Región de Murcia",
+        "seab": "1"
+    },
+    {
+        "code": "743101",
+        "zone": "Vertiente cantábrica de Navarra",
+        "prov": "Navarra",
+        "comm": "Comunidad Foral de Navarra",
+        "seab": "0"
+    },
+    {
+        "code": "743102",
+        "zone": "Centro de Navarra",
+        "prov": "Navarra",
+        "comm": "Comunidad Foral de Navarra",
+        "seab": "0"
+    },
+    {
+        "code": "743103",
+        "zone": "Pirineo navarro",
+        "prov": "Navarra",
+        "comm": "Comunidad Foral de Navarra",
+        "seab": "0"
+    },
+    {
+        "code": "743104",
+        "zone": "Ribera del Ebro de Navarra",
+        "prov": "Navarra",
+        "comm": "Comunidad Foral de Navarra",
+        "seab": "0"
+    },
+    {
+        "code": "750101",
+        "zone": "Cuenca del Nervión",
+        "prov": "Araba/Álava",
+        "comm": "País Vasco",
+        "seab": "0"
+    },
+    {
+        "code": "750102",
+        "zone": "Llanada alavesa",
+        "prov": "Araba/Álava",
+        "comm": "País Vasco",
+        "seab": "0"
+    },
+    {
+        "code": "750103",
+        "zone": "Rioja alavesa",
+        "prov": "Araba/Álava",
+        "comm": "País Vasco",
+        "seab": "0"
+    },
+    {
+        "code": "752001",
+        "zone": "Gipuzkoa litoral",
+        "prov": "Gipuzkoa",
+        "comm": "País Vasco",
+        "seab": "1"
+    },
+    {
+        "code": "752001C",
+        "zone": "Gipuzkoa litoral",
+        "prov": "Gipuzkoa",
+        "comm": "País Vasco",
+        "seab": "1"
+    },
+    {
+        "code": "752002",
+        "zone": "Gipuzkoa interior",
+        "prov": "Gipuzkoa",
+        "comm": "País Vasco",
+        "seab": "0"
+    },
+    {
+        "code": "754801",
+        "zone": "Bizkaia litoral",
+        "prov": "Bizkaia",
+        "comm": "País Vasco",
+        "seab": "1"
+    },
+    {
+        "code": "754801C",
+        "zone": "Bizkaia litoral",
+        "prov": "Bizkaia",
+        "comm": "País Vasco",
+        "seab": "1"
+    },
+    {
+        "code": "754802",
+        "zone": "Bizkaia interior",
+        "prov": "Bizkaia",
+        "comm": "País Vasco",
+        "seab": "0"
+    },
+    {
+        "code": "762601",
+        "zone": "Ribera del Ebro de La Rioja",
+        "prov": "La Rioja",
+        "comm": "La Rioja",
+        "seab": "0"
+    },
+    {
+        "code": "762602",
+        "zone": "Ibérica riojana",
+        "prov": "La Rioja",
+        "comm": "La Rioja",
+        "seab": "0"
+    },
+    {
+        "code": "770301",
+        "zone": "Litoral norte de Alicante",
+        "prov": "Alacant/Alicante",
+        "comm": "Comunitat Valenciana",
+        "seab": "1"
+    },
+    {
+        "code": "770301C",
+        "zone": "Litoral norte de Alicante",
+        "prov": "Alacant/Alicante",
+        "comm": "Comunitat Valenciana",
+        "seab": "1"
+    },
+    {
+        "code": "770302",
+        "zone": "Interior de Alicante",
+        "prov": "Alacant/Alicante",
+        "comm": "Comunitat Valenciana",
+        "seab": "0"
+    },
+    {
+        "code": "770303",
+        "zone": "Litoral sur de Alicante",
+        "prov": "Alacant/Alicante",
+        "comm": "Comunitat Valenciana",
+        "seab": "1"
+    },
+    {
+        "code": "770303C",
+        "zone": "Litoral sur de Alicante",
+        "prov": "Alacant/Alicante",
+        "comm": "Comunitat Valenciana",
+        "seab": "1"
+    },
+    {
+        "code": "771201",
+        "zone": "Interior norte de Castellón",
+        "prov": "Castelló/Castellón",
+        "comm": "Comunitat Valenciana",
+        "seab": "0"
+    },
+    {
+        "code": "771202",
+        "zone": "Litoral norte de Castellón",
+        "prov": "Castelló/Castellón",
+        "comm": "Comunitat Valenciana",
+        "seab": "1"
+    },
+    {
+        "code": "771202C",
+        "zone": "Litoral norte de Castellón",
+        "prov": "Castelló/Castellón",
+        "comm": "Comunitat Valenciana",
+        "seab": "1"
+    },
+    {
+        "code": "771203",
+        "zone": "Interior sur de Castellón",
+        "prov": "Castelló/Castellón",
+        "comm": "Comunitat Valenciana",
+        "seab": "0"
+    },
+    {
+        "code": "771204",
+        "zone": "Litoral sur de Castellón",
+        "prov": "Castelló/Castellón",
+        "comm": "Comunitat Valenciana",
+        "seab": "1"
+    },
+    {
+        "code": "771204C",
+        "zone": "Litoral sur de Castellón",
+        "prov": "Castelló/Castellón",
+        "comm": "Comunitat Valenciana",
+        "seab": "1"
+    },
+    {
+        "code": "774601",
+        "zone": "Interior norte de Valencia",
+        "prov": "València/Valencia",
+        "comm": "Comunitat Valenciana",
+        "seab": "0"
+    },
+    {
+        "code": "774602",
+        "zone": "Litoral norte de Valencia",
+        "prov": "València/Valencia",
+        "comm": "Comunitat Valenciana",
+        "seab": "1"
+    },
+    {
+        "code": "774602C",
+        "zone": "Litoral norte de Valencia",
+        "prov": "València/Valencia",
+        "comm": "Comunitat Valenciana",
+        "seab": "1"
+    },
+    {
+        "code": "774603",
+        "zone": "Interior sur de Valencia",
+        "prov": "València/Valencia",
+        "comm": "Comunitat Valenciana",
+        "seab": "0"
+    },
+    {
+        "code": "774604",
+        "zone": "Litoral sur de Valencia",
+        "prov": "València/Valencia",
+        "comm": "Comunitat Valenciana",
+        "seab": "1"
+    },
+    {
+        "code": "774604C",
+        "zone": "Litoral sur de Valencia",
+        "prov": "València/Valencia",
+        "comm": "Comunitat Valenciana",
+        "seab": "1"
+    },
+    {
+        "code": "785101",
+        "zone": "Ceuta",
+        "prov": "Ceuta",
+        "comm": "Ciudad de Ceuta",
+        "seab": "1"
+    },
+    {
+        "code": "785101C",
+        "zone": "Ceuta",
+        "prov": "Ceuta",
+        "comm": "Ciudad de Ceuta",
+        "seab": "1"
+    },
+    {
+        "code": "795201",
+        "zone": "Melilla",
+        "prov": "Melilla",
+        "comm": "Ciudad de Melilla",
+        "seab": "1"
+    },
+    {
+        "code": "795201C",
+        "zone": "Melilla",
+        "prov": "Melilla",
+        "comm": "Ciudad de Melilla",
+        "seab": "1"
+    }
+]
