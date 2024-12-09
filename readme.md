@@ -126,8 +126,7 @@ Almacena los datos de todas las zonas de aviso formateados tal que:
 >     "comm": "Andalucía",
 >     "seab": "1"
 > },
-> ´´´
->
+> ```
 
 ### poly.json
 Guarda los datos de los polígonos de cada zona de aviso (para dibujar la zona en un mapa), tal que:
