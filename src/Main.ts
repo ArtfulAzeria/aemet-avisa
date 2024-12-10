@@ -226,17 +226,22 @@ class Main {
                 const [ini, fin] = match[0].split(' a '); 
                 console.log(fin);
                 
-                const [time, date] = fin.split(' ');
-                const [day, month, year] = date.split('-');
-                const [hour, minute] = time.split(':');
-                const itemDate = new Date(`${year}-${month}-${day}T${hour}:${minute}:00`);
+                const [fin_time, fin_date] = fin.split(' ');
+                const [fin_day, fin_month, fin_year] = fin_date.split('-');
+                const [fin_hour, fin_minute] = fin_time.split(':');
+                const fin_itemDate = new Date(`${fin_year}-${fin_month}-${fin_day}T${fin_hour}:${fin_minute}:00`);
+
+                const [ini_time, ini_date] = ini.split(' ');
+                const [ini_day, ini_month, ini_year] = ini_date.split('-');
+                const [ini_hour, ini_minute] = ini_time.split(':');
+                const ini_itemDate = new Date(`${ini_year}-${ini_month}-${ini_day}T${ini_hour}:${ini_minute}:00`);
+
                 const now = new Date();
 
-                console.log("final: ", itemDate.getTime);
-                console.log("final: ", now.getTime);
-                
-
-                return itemDate.getTime() >= now.getTime();
+                return (
+                    fin_itemDate.getTime() >= now.getTime() &&
+                    ini_itemDate.getTime() <= now.getTime()
+                );
             }
 
             return false;
