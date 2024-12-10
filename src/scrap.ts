@@ -15,7 +15,11 @@ export async function captureAemetMap(): Promise<Uint8Array> {
         height: 1080,
     });
 
-    await page.goto(url, { waitUntil: 'networkidle2' });
+    try {
+        await page.goto(url, { timeout: 40000, waitUntil: 'networkidle2' });
+    } catch (error) {
+        console.error(`Error navegando a la URL: ${url}`, error);
+    }
     await page.waitForSelector('#mapa');
 
     await page.evaluate(() => {
