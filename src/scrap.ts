@@ -16,7 +16,7 @@ export async function captureAemetMap(): Promise<Uint8Array> {
     });
 
     try {
-        await page.goto(url, { timeout: 40000, waitUntil: 'networkidle2' });
+        await page.goto(url, { timeout: 60000, waitUntil: 'networkidle2' });
     } catch (error) {
         console.error(`Error navegando a la URL: ${url}`, error);
     }
