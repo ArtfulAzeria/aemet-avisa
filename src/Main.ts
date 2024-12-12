@@ -240,7 +240,9 @@ class Main {
 
                 return (
                     fin_itemDate.getTime() >= now.getTime() &&
-                    ini_itemDate.getTime() <= now.getTime()
+                    ini_itemDate.getTime() <= now.getTime() || 
+fin_itemDate.getTime() >= now.getTime() &&
+                    ini_itemDate.getDate() == now.getDate() 
                 );
             }
 
