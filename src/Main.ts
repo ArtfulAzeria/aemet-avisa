@@ -1,6 +1,6 @@
 import { AemetGeneralAlert } from "./interface/aemetGeneralAlert.js";
 import { immutable } from "../resources/immutable.js";
-import { BskyAgent, RichText } from '@atproto/api';
+import { AtpAgent, RichText } from '@atproto/api';
 import { captureAemetMap } from './scrap.js';
 import { Rss } from './Rss.js';
 import dotenv from 'dotenv';
@@ -93,6 +93,9 @@ class Main {
             if (yellow.length >= 2)
                 msg = msg.replace(/,([^,]*)$/, " y$1");
         }
+
+        if (msg.length === 0)
+            msg = "🟢 Actualmente no hay ningún aviso activo.\n";
 
         msg += ("\n"
             + "Para más información acude a aemet.es"
@@ -223,9 +226,9 @@ class Main {
         mainJson.rss.channel.item = mainJson.rss.channel.item.filter(item => {
             const match = item.description._text.match(/\d{2}:\d{2} \d{2}-\d{2}-\d{4} CET \(UTC\+[0-9]+\) a \d{2}:\d{2} \d{2}-\d{2}-\d{4} CET \(UTC\+[0-9]+\)/);
             if (match) {
-                const [ini, fin] = match[0].split(' a '); 
+                const [ini, fin] = match[0].split(' a ');
                 console.log(fin);
-                
+
                 const [fin_time, fin_date] = fin.split(' ');
                 const [fin_day, fin_month, fin_year] = fin_date.split('-');
                 const [fin_hour, fin_minute] = fin_time.split(':');
@@ -240,9 +243,9 @@ class Main {
 
                 return (
                     fin_itemDate.getTime() >= now.getTime() &&
-                    ini_itemDate.getTime() <= now.getTime() || 
-fin_itemDate.getTime() >= now.getTime() &&
-                    ini_itemDate.getDate() == now.getDate() 
+                    ini_itemDate.getTime() <= now.getTime() ||
+                    fin_itemDate.getTime() >= now.getTime() &&
+                    ini_itemDate.getDate() == now.getDate()
                 );
             }
 
@@ -281,7 +284,7 @@ fin_itemDate.getTime() >= now.getTime() &&
 
         dotenv.config();
 
-        const agent = new BskyAgent({ service: "https://bsky.social" })
+        const agent = new AtpAgent({ service: "https://bsky.social" })
         console.log(
             "identifier: " + process.env.BLUESKY_USERNAME,
             "password: " + process.env.BLUESKY_PASSWORD
@@ -296,8 +299,8 @@ fin_itemDate.getTime() >= now.getTime() &&
 
         const postText: string = main.buildMessage();
         console.log(postText);
-        
-        
+
+
 
         let response = await agent.post({
             text: postText,
@@ -329,7 +332,9 @@ fin_itemDate.getTime() >= now.getTime() &&
         });
         console.log(response);
 
-    }
+
+    };
 }
+
 
 Main.main();

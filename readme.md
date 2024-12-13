@@ -65,6 +65,13 @@ Este formateo es construido en [Main.ts](src/Main.ts), bajo el método buildMess
 
 Además de esto, el mensaje de texto siempre es acompañado por una imagen. La imagen se extrae al invocar el archivo [scrap.ts](src/scrap.ts) desde Main.ts, y no se guarda de forma local, sino que es completamente tratada en memoria.
 
+En caso de que no haya aviso alguno de ningún tipo, el texto dictará:
+```
+🟢 Actualmente no hay ningún aviso activo.
+
+Para más información acude a aemet.es
+```
+
 ## ¿Cómo se extraen los datos?
 Se llama al RSS de avisos usando la URI (almacenada en immutable.ts). Se usa el RSS completo que tiene el como primer item del XML el archivo .tar.gz de descarga completa, aunque realmente este se ingora a efectos de crear el mensaje porque carece de información relavante.
 
