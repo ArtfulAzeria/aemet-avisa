@@ -1,3 +1,5 @@
+> [!CAUTION]  
+> El repositorio ha dejado de ser mantenido porque existe una nueva versión del código. Puedes acceder al nuevo repositorio en [aemet-avisa-v2](https://github.com/ArtfulAzeria/aemet-avisa-v2).
 # @aemet-avisa.bot.azeria.dev
 
 Este es el código fuente con el cual está construido este bot para [BlueSky](https://bsky.app/). Puedes encontrar su cuenta en [@aemet-avisa.bot.azeria.dev](https://bsky.app/profile/did:plc:74vcrrzbpvefn46bocozy527).
